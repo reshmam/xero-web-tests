@@ -30,8 +30,9 @@ Select Root directory to local clone of xero (eg: /home/reshma/gitrepos/xero)
 Click finish , after eclipse lists project 
 ```
 ## Executing tests
-1. Right click on test class and run as testng test.
-2. Generating surefire report: Right click pom.xml, choose build.., type target "surefire-report:report" and run.
+1. Execute following maven command from Project root directory
+	a. mvn clean test -DsuiteXMLfile=src/test/resources/testng.xml 
+	b. mvn surefire-report:report-only
 3. Report will be available @ "target/site/surefire-report.html"
 
 ## Configuration
