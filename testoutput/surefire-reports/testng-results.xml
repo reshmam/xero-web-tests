@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="xero" duration-ms="356521" started-at="2014-08-18T17:24:21Z" finished-at="2014-08-18T17:30:18Z">
+    <groups>
+    </groups>
+    <test name="Repeating invoice page" duration-ms="356521" started-at="2014-08-18T17:24:21Z" finished-at="2014-08-18T17:30:18Z">
+      <class name="com.xero.app.selenium.DeleteInvoiceTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.xero.app.selenium.DeleteInvoiceTest@18e0f79]" name="preSetup" is-config="true" duration-ms="16994" started-at="2014-08-18T17:29:37Z" finished-at="2014-08-18T17:29:54Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xero.app.selenium.DeleteInvoiceTest@18e0f79]" name="setup" is-config="true" duration-ms="18503" started-at="2014-08-18T17:29:54Z" finished-at="2014-08-18T17:30:12Z">
+        </test-method>
+        <test-method status="PASS" signature="testDeleteInvoice()[pri:0, instance:com.xero.app.selenium.DeleteInvoiceTest@18e0f79]" name="testDeleteInvoice" duration-ms="4319" started-at="2014-08-18T17:30:12Z" finished-at="2014-08-18T17:30:17Z">
+        </test-method>
+        <test-method status="PASS" signature="postTeardown()[pri:0, instance:com.xero.app.selenium.DeleteInvoiceTest@18e0f79]" name="postTeardown" is-config="true" duration-ms="961" started-at="2014-08-18T17:30:17Z" finished-at="2014-08-18T17:30:18Z">
+        </test-method>
+      </class>
+      <class name="com.xero.app.selenium.ApproveInvoiceTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.xero.app.selenium.ApproveInvoiceTest@199ec67]" name="preSetup" is-config="true" duration-ms="15850" started-at="2014-08-18T17:25:18Z" finished-at="2014-08-18T17:25:34Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xero.app.selenium.ApproveInvoiceTest@199ec67]" name="setup" is-config="true" duration-ms="21051" started-at="2014-08-18T17:25:34Z" finished-at="2014-08-18T17:25:55Z">
+        </test-method>
+        <test-method status="PASS" signature="testApproveInvoice()[pri:0, instance:com.xero.app.selenium.ApproveInvoiceTest@199ec67]" name="testApproveInvoice" duration-ms="5081" started-at="2014-08-18T17:25:55Z" finished-at="2014-08-18T17:26:00Z">
+        </test-method>
+        <test-method status="PASS" signature="postTeardown()[pri:0, instance:com.xero.app.selenium.ApproveInvoiceTest@199ec67]" name="postTeardown" is-config="true" duration-ms="1602" started-at="2014-08-18T17:26:00Z" finished-at="2014-08-18T17:26:01Z">
+        </test-method>
+      </class>
+      <class name="com.xero.app.selenium.HelpinNewRepeatingInvoiceTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.xero.app.selenium.HelpinNewRepeatingInvoiceTest@6f5f03]" name="preSetup" is-config="true" duration-ms="15978" started-at="2014-08-18T17:28:10Z" finished-at="2014-08-18T17:28:26Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xero.app.selenium.HelpinNewRepeatingInvoiceTest@6f5f03]" name="setup" is-config="true" duration-ms="29659" started-at="2014-08-18T17:28:26Z" finished-at="2014-08-18T17:28:55Z">
+        </test-method>
+        <test-method status="PASS" signature="checkWhatsthis()[pri:0, instance:com.xero.app.selenium.HelpinNewRepeatingInvoiceTest@6f5f03]" name="checkWhatsthis" duration-ms="2163" started-at="2014-08-18T17:28:55Z" finished-at="2014-08-18T17:28:58Z">
+        </test-method>
+        <test-method status="PASS" signature="postTeardown()[pri:0, instance:com.xero.app.selenium.HelpinNewRepeatingInvoiceTest@6f5f03]" name="postTeardown" is-config="true" duration-ms="1041" started-at="2014-08-18T17:28:58Z" finished-at="2014-08-18T17:28:59Z">
+        </test-method>
+      </class>
+      <class name="com.xero.app.selenium.SearchInvoiceInvalidInputsTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.xero.app.selenium.SearchInvoiceInvalidInputsTest@12554d5]" name="preSetup" is-config="true" duration-ms="17369" started-at="2014-08-18T17:26:41Z" finished-at="2014-08-18T17:26:59Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xero.app.selenium.SearchInvoiceInvalidInputsTest@12554d5]" name="setup" is-config="true" duration-ms="20731" started-at="2014-08-18T17:26:59Z" finished-at="2014-08-18T17:27:19Z">
+        </test-method>
+        <test-method status="PASS" signature="testSearchInvalidInputs()[pri:0, instance:com.xero.app.selenium.SearchInvoiceInvalidInputsTest@12554d5]" name="testSearchInvalidInputs" duration-ms="7322" started-at="2014-08-18T17:27:19Z" finished-at="2014-08-18T17:27:27Z">
+        </test-method>
+        <test-method status="PASS" signature="postTeardown()[pri:0, instance:com.xero.app.selenium.SearchInvoiceInvalidInputsTest@12554d5]" name="postTeardown" is-config="true" duration-ms="690" started-at="2014-08-18T17:27:27Z" finished-at="2014-08-18T17:27:27Z">
+        </test-method>
+      </class>
+      <class name="com.xero.app.selenium.SearchInvoiceTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.xero.app.selenium.SearchInvoiceTest@1c6ce97]" name="preSetup" is-config="true" duration-ms="13193" started-at="2014-08-18T17:26:01Z" finished-at="2014-08-18T17:26:15Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xero.app.selenium.SearchInvoiceTest@1c6ce97]" name="setup" is-config="true" duration-ms="22053" started-at="2014-08-18T17:26:15Z" finished-at="2014-08-18T17:26:37Z">
+        </test-method>
+        <test-method status="PASS" signature="testSearchInvoice()[pri:0, instance:com.xero.app.selenium.SearchInvoiceTest@1c6ce97]" name="testSearchInvoice" duration-ms="3885" started-at="2014-08-18T17:26:37Z" finished-at="2014-08-18T17:26:41Z">
+        </test-method>
+        <test-method status="PASS" signature="postTeardown()[pri:0, instance:com.xero.app.selenium.SearchInvoiceTest@1c6ce97]" name="postTeardown" is-config="true" duration-ms="813" started-at="2014-08-18T17:26:41Z" finished-at="2014-08-18T17:26:41Z">
+        </test-method>
+      </class>
+      <class name="com.xero.app.selenium.InvoiceDateNewRepeatingInvoiceTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.xero.app.selenium.InvoiceDateNewRepeatingInvoiceTest@1223041]" name="preSetup" is-config="true" duration-ms="12913" started-at="2014-08-18T17:28:59Z" finished-at="2014-08-18T17:29:12Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xero.app.selenium.InvoiceDateNewRepeatingInvoiceTest@1223041]" name="setup" is-config="true" duration-ms="21723" started-at="2014-08-18T17:29:12Z" finished-at="2014-08-18T17:29:33Z">
+        </test-method>
+        <test-method status="PASS" signature="testNextInvoiceDate()[pri:0, instance:com.xero.app.selenium.InvoiceDateNewRepeatingInvoiceTest@1223041]" name="testNextInvoiceDate" duration-ms="2662" started-at="2014-08-18T17:29:33Z" finished-at="2014-08-18T17:29:36Z">
+        </test-method>
+        <test-method status="PASS" signature="postTeardown()[pri:0, instance:com.xero.app.selenium.InvoiceDateNewRepeatingInvoiceTest@1223041]" name="postTeardown" is-config="true" duration-ms="913" started-at="2014-08-18T17:29:36Z" finished-at="2014-08-18T17:29:37Z">
+        </test-method>
+      </class>
+      <class name="com.xero.app.selenium.NewRepeatingInvoiceTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.xero.app.selenium.NewRepeatingInvoiceTest@b9121c]" name="preSetup" is-config="true" duration-ms="20355" started-at="2014-08-18T17:24:21Z" finished-at="2014-08-18T17:24:41Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xero.app.selenium.NewRepeatingInvoiceTest@b9121c]" name="setup" is-config="true" duration-ms="25143" started-at="2014-08-18T17:24:41Z" finished-at="2014-08-18T17:25:07Z">
+        </test-method>
+        <test-method status="PASS" signature="testCreateNewRepeatingInvoice()[pri:0, instance:com.xero.app.selenium.NewRepeatingInvoiceTest@b9121c]" name="testCreateNewRepeatingInvoice" duration-ms="10240" started-at="2014-08-18T17:25:07Z" finished-at="2014-08-18T17:25:17Z">
+        </test-method>
+        <test-method status="PASS" signature="postTeardown()[pri:0, instance:com.xero.app.selenium.NewRepeatingInvoiceTest@b9121c]" name="postTeardown" is-config="true" duration-ms="928" started-at="2014-08-18T17:25:17Z" finished-at="2014-08-18T17:25:18Z">
+        </test-method>
+      </class>
+      <class name="com.xero.app.selenium.HistoryNoteNewRepeatingInvoiceTest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.xero.app.selenium.HistoryNoteNewRepeatingInvoiceTest@1e49fd3]" name="preSetup" is-config="true" duration-ms="17398" started-at="2014-08-18T17:27:27Z" finished-at="2014-08-18T17:27:45Z">
+        </test-method>
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.xero.app.selenium.HistoryNoteNewRepeatingInvoiceTest@1e49fd3]" name="setup" is-config="true" duration-ms="22888" started-at="2014-08-18T17:27:45Z" finished-at="2014-08-18T17:28:08Z">
+        </test-method>
+        <test-method status="PASS" signature="testHistoryNote()[pri:0, instance:com.xero.app.selenium.HistoryNoteNewRepeatingInvoiceTest@1e49fd3]" name="testHistoryNote" duration-ms="1173" started-at="2014-08-18T17:28:08Z" finished-at="2014-08-18T17:28:09Z">
+        </test-method>
+        <test-method status="PASS" signature="postTeardown()[pri:0, instance:com.xero.app.selenium.HistoryNoteNewRepeatingInvoiceTest@1e49fd3]" name="postTeardown" is-config="true" duration-ms="858" started-at="2014-08-18T17:28:09Z" finished-at="2014-08-18T17:28:10Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
