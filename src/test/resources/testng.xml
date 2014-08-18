@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="xero" >
+  <test name="Repeating invoice page">
+  <classes>
+       <class name="com.xero.app.selenium.ApproveInvoiceTest"/>
+       <class name="com.xero.app.selenium.SearchInvoiceTest"/>
+       <class name="com.xero.app.selenium.SearchInvoiceInvalidInputsTest"/>
+       <class name="com.xero.app.selenium.NewRepeatingInvoiceTest"/>
+       <class name="com.xero.app.selenium.HistoryNoteNewRepeatingInvoiceTest"/>
+       <class name="com.xero.app.selenium.HelpinNewRepeatingInvoiceTest"/>
+       <class name="com.xero.app.selenium.InvoiceDateNewRepeatingInvoiceTest"/>
+        <class name="com.xero.app.selenium.DeleteInvoiceTest"/>
+    </classes>
+  </test> 
+   </suite>
