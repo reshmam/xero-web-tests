@@ -39,6 +39,12 @@ public class BaseSeleniumTest {
 		driver.manage().window().maximize();
 		driver.get("https://login.xero.com//");
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		driver.findElement(By.xpath("//*[@id='email']")).sendKeys(
 				"reshma.malemarpuram@gmail.com");
 		driver.findElement(By.xpath("//*[@id='password']")).sendKeys(

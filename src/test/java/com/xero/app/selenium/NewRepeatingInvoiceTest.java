@@ -64,6 +64,12 @@ public class NewRepeatingInvoiceTest extends BaseSeleniumTest {
 		driver.findElement(
 				By.xpath("html/body/form/div[2]/div[2]/div/div[3]/div/span[1]/button"))
 				.click();
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 

@@ -24,7 +24,7 @@ public class ApprovewithnoTranSelectedTest extends BaseSeleniumTest {
     	//code to check when tried to approve with no transaction selected
 		
     	 driver.findElement(By.xpath("//*[@id='ext-gen41']")).click();
-    	 driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+    	Thread.sleep(5000);
 		 String currentWindowId = driver.getWindowHandle();
          //retrive all windows id
          Set<String> allWindows = driver.getWindowHandles();
